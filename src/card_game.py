@@ -25,4 +25,4 @@ def cards_total(self, cards):
   total = 0
   for card in cards:
     total += card.value
-    return "You have a total of" + str(total)
+  return "You have a total of" + str(total)
