@@ -8,7 +8,7 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    if card == 1:
+    if card.value == 1:
       return True
     else:
       return False
@@ -25,4 +25,4 @@ def cards_total(self, cards):
   total = 0
   for card in cards:
     total += card.value
-  return "You have a total of" + str(total)
+  return "You have a total of " + str(total)
